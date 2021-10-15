@@ -82,16 +82,16 @@ namespace cukraszdaForm
       // 
       // txtboxLegdragabbsutiAra
       // 
-      this.txtboxLegdragabbsutiAra.Location = new System.Drawing.Point(201, 175);
+      this.txtboxLegdragabbsutiAra.Location = new System.Drawing.Point(201, 176);
       this.txtboxLegdragabbsutiAra.Name = "txtboxLegdragabbsutiAra";
-      this.txtboxLegdragabbsutiAra.Size = new System.Drawing.Size(94, 20);
+      this.txtboxLegdragabbsutiAra.Size = new System.Drawing.Size(126, 20);
       this.txtboxLegdragabbsutiAra.TabIndex = 4;
       // 
       // txtboxLegolcsobbsutiAra
       // 
-      this.txtboxLegolcsobbsutiAra.Location = new System.Drawing.Point(201, 290);
+      this.txtboxLegolcsobbsutiAra.Location = new System.Drawing.Point(201, 291);
       this.txtboxLegolcsobbsutiAra.Name = "txtboxLegolcsobbsutiAra";
-      this.txtboxLegolcsobbsutiAra.Size = new System.Drawing.Size(94, 20);
+      this.txtboxLegolcsobbsutiAra.Size = new System.Drawing.Size(126, 20);
       this.txtboxLegolcsobbsutiAra.TabIndex = 5;
       // 
       // txtBoxSutiTipusa

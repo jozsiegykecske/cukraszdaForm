@@ -33,7 +33,7 @@ namespace cukraszdaForm
     private void SutiTipusokSzamolasa()
     {
       Dictionary<string, int> dic = new Dictionary<string, int>();
-      StreamWriter ki = new StreamWriter("stat.txt");
+      StreamWriter ki = new StreamWriter("stat.csv");
       foreach (var s in sutemenyek)
       {
         if (!dic.ContainsKey(s.Tipus))
