@@ -43,7 +43,14 @@ namespace cukraszdaForm
       get { return egyseg; }
       set { egyseg = value; }
     }
-
+    public sutemenyek(string nev, string tipus, string egyseg, bool dij = false, int ar = 100)
+    {
+      this.nev = nev;
+      this.tipus = tipus;
+      this.egyseg = egyseg;
+      this.dij = dij;
+      this.ar = ar;
+    }
     public sutemenyek(string nev, string tipus, bool dij, int ar, string egyseg)
     {
       this.nev = nev;
@@ -51,6 +58,10 @@ namespace cukraszdaForm
       this.dij = dij;
       this.ar = ar;
       this.egyseg = egyseg;
+    }
+    public override string ToString()
+    {
+      return $"{nev};{tipus};{ar};{egyseg},{dij}";
     }
   }
 }

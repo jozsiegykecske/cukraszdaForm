@@ -152,7 +152,7 @@ namespace cukraszdaForm
       // cbDíj
       // 
       this.cbDíj.AutoSize = true;
-      this.cbDíj.Location = new System.Drawing.Point(365, 305);
+      this.cbDíj.Location = new System.Drawing.Point(355, 290);
       this.cbDíj.Name = "cbDíj";
       this.cbDíj.Size = new System.Drawing.Size(63, 17);
       this.cbDíj.TabIndex = 10;

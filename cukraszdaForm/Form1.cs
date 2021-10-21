@@ -14,9 +14,14 @@ namespace cukraszdaForm
   public partial class Form1 : Form
   {
     List<sutemenyek> sutemenyek = new List<sutemenyek>();
+    //sutemenyek suti2 = new sutemenyek(tipus: "vegyes", ar:2000, dij:true, egyseg: "liter", nev:"vegyes");
+    sutemenyek suti2 = new sutemenyek("Turbó Rudi", "süti", "db");
+    sutemenyek suti3 = new sutemenyek("Pöttyös", "süti", "darab", ar: 189);
     public Form1()
     {
       InitializeComponent();
+      Console.WriteLine(suti2.ToString());
+      Console.WriteLine(suti3.ToString());
     }
 
     private void Form1_Shown(object sender, EventArgs e)
@@ -170,7 +175,7 @@ namespace cukraszdaForm
       }
       if (int.TryParse(text,out valami))
       {
-        MessageBox.Show("Rossz a bementi szöveg típusa!");
+        MessageBox.Show("Rossz a bemeneti szöveg típusa!");
         return false;
       }
       else
